@@ -4,7 +4,7 @@ clc
 clear
 
 % Reads lines of training_data.txt in column vector
-sentences = readlines("donald_trump_jan_6.txt", "EmptyLineRule", "skip");
+sentences = readlines("training_data.txt", "EmptyLineRule", "skip");
 
 % Next we need to remove punctuation from each line and lowercase each word
 [lines, ~] = size(sentences);
